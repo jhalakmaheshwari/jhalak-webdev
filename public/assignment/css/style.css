@@ -1,7 +1,70 @@
-input.form-control {
+input.form-control,
+textarea.form-control,
+select.form-control {
     margin-bottom: 5px;
 }
 
+nav.navbar.navbar-default.navbar-fixed-top {
+    padding-right: 15px;
+}
+
 body {
-    padding-top: 36px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.navbar-default {
+    background-color: darkblue;
+    border-color: darkblue;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-header {
+    width: 100%;
+}
+
+.navbar-default .navbar-link {
+    color: white;
+}
+
+.navbar.navbar-default a {
+    color: #ffffff;
+}
+
+.wd-widget {
+    margin-bottom: 10px;
+}
+
+.wd-widget > img {
+    width: 100%;
+}
+
+.wd-widget > .wd-widget-toolbar {
+    position: absolute;
+    right: 15px;
+    background: white;
+    opacity: 0.9;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+}
+
+.websitelist{
+    border-right: 1px solid grey;
+}
+
+.widgetlist{
+    list-style-type: none;
+}
+.widgetlist > li{
+    padding-bottom: 10px;
+}
+.userFooter{
+    padding-right: 35px;
 }
